@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>偽類選擇器-動態偽類</title>
+  <style>
+    body {
+      font-size: 21px;
+    }
+
+    input {
+      font-size: 21px;
+      vertical-align: middle;
+    }
+
+    button {
+      width: 100px;
+      height: 30px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  <h3>1. 為超連結添加不同狀態下的樣式</h3>
+  <!--
+    - 預設文字顏色為 brown
+    - 當鼠標懸停在超連結上時，顯示為 orange
+    - 當被點擊並未放開時，顯示為 yellow
+  -->
+  <nav>
+    <ul>
+      <li>
+        <a href="#">關於我們</a>
+      </li>
+      <li>
+        <a href="#">產品介紹</a>
+      </li>
+      <li>
+        <a href="#">聯絡我們</a>
+      </li>
+    </ul>
+  </nav>
+
+  <h3>2. 設置表單元素的偽類樣式</h3>
+   <!--
+    當輸入框獲得焦點時，背景色變為 lightyellow
+    當鼠標懸停在按鈕上時，背景色變為 skyblue
+  -->
+  <div>
+    <input type="text" placeholder="請輸入文字">
+    <button>搜尋</button>
+  </div>
+</body>
+</html>
